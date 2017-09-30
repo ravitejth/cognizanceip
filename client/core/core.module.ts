@@ -4,7 +4,7 @@ import { CommonModule }  from '@angular/common'
 
 //COMPONENTS
 import { HomeComponent }    from './home/home.component';
-import { CtaComponent }     from './home/cta/cta.component';
+import { InvalidityComponent }     from './home/invalidity/invalidity.component';
 import { MainComponent }    from './home/main/main';
 import { TestimonialsComponent }     from './home/testimonials/testimonials.component';
 import { AboutComponent }   from './about/about.component';
@@ -36,7 +36,7 @@ import { CarouselModule } from 'ngx-bootstrap';
     exports: [
       AboutComponent,
       HomeComponent,
-      CtaComponent,
+      InvalidityComponent,
       MainComponent,
       TestimonialsComponent,
       ServicesComponent,
@@ -50,7 +50,7 @@ import { CarouselModule } from 'ngx-bootstrap';
     declarations: [
       AboutComponent,
       HomeComponent,
-      CtaComponent,
+      InvalidityComponent,
       MainComponent,
       TestimonialsComponent,
       ServicesComponent,

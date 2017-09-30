@@ -13,16 +13,20 @@ export class HeaderComponent {
       link: "/"
     },
     {
-      title: "About Us",
+      title: "Team",
       link: "/about"
     },
     {
-      title: "Services",
+      title: "Expertise",
       link: "/services"
     },
     {
-      title: "Videos",
+      title: "Resources",
       link: "/videos"
+    },
+    {
+      title: "Career",
+      link: "/contact"
     },
     {
       title: "Contact",
