@@ -1,0 +1,15 @@
+@import "index";
+
+// importing font-awesome
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+// importing bootstrap
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "global";
+@import "masthead";
+@import "loading";
+@import "creative";
+@import "theme";

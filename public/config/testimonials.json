@@ -1,0 +1,25 @@
+[{
+  "author": "Greg Morgensen",
+  "designation": "Actor, Director, Mumbai",
+  "content": " Testimonial 1! Thank you for making my life easier and saving me time! I’ll definitely recommend it to my friends. :)",
+  "image": "img/testimonials/testimonial-sample.png"
+},
+  {
+    "author": "Peter Builett",
+    "designation": "Actor, Director, Mumbai",
+    "content": " Testimonial 2! Thank you for making my life easier and saving me time! I’ll definitely recommend it to my friends. :)",
+    "image": "img/testimonials/testimonial-sample.png"
+  },
+  {
+    "author": "Tanumoy Mishra",
+    "designation": "Actor, Director, Mumbai",
+    "content": " Testimonial 3! Thank you for making my life easier and saving me time! I’ll definitely recommend it to my friends. :)",
+    "image": "img/testimonials/testimonial-sample.png"
+  },
+  {
+    "author": "Lisa Wells",
+    "designation": "Actor, Director, Mumbai",
+    "content": " Love it! Thank you for making my life easier and saving me time! I’ll definitely recommend it to my friends. :)",
+    "image": "img/testimonials/testimonial-sample.png"
+  }
+]

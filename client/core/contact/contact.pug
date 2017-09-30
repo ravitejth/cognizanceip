@@ -1,0 +1,54 @@
+.contact-headline-bg
+
+section#mail-anchor.contact-section.section.section-on-bg
+  .container
+    h2.title.text-center Contact Us
+    p.intro.text-center
+      | Let us know if you have any query, Don't hesitate to ping US up. we’d love to hear from you and are always ready to sail with you.
+    form#contact-form.contact-form(method='post', action='https://formspree.io/info@pinaklab.com')
+      .row.text-center
+        .contact-form-inner.col-md-offset-2.col-sm-offset-0.xs-offset-0.col-xs-12.col-md-8
+          .row
+            .form-group.col-xs-12.col-sm-6
+              label.sr-only(for='cname') Your name
+              input#cname.form-control(type='text', name='name', placeholder='Your name', minlength='2', required='')
+            .form-group.col-xs-12.col-sm-6
+              label.sr-only(for='cemail') Email address
+              input#cemail.form-control(type='email', name='_replyto', placeholder='Your email address', required='')
+            .form-group.col-xs-12.col-sm-6
+              label.sr-only(for='city') City
+              input#city.form-control(type='text', name='city', placeholder='City', minlength='2', required='')
+            .form-group.col-xs-12.col-sm-6
+              label.sr-only(for='phone') Phone
+              input#phone.form-control(type='text', name='phone', placeholder='Phone', required='')
+            .form-group.col-xs-12
+              label.sr-only(for='cmessage') Your message
+              textarea#cmessage.form-control(name='message', placeholder='Enter your message', rows='6', required='')
+            .form-group.col-xs-12
+              button.btn.btn-block.btn-cta.btn-cta-primary(type='submit') Send Message
+          // //row
+      // //row
+      #form-messages
+    // //contact-form
+  // //container
+// //contact-section
+// ******Other Contact Section******
+section.contact-other-section.section
+  .container.text-center
+    h2.title Other ways to reach us
+    p.intro You can also get in touch with us by phone or mail.
+    .row
+      ul.other-info.list-unstyled.col-md-6.col-sm-10.col-xs-12.col-md-offset-3.col-sm-offset-1.xs-offset-0
+        li
+          i.fa.fa-phone
+          a(href="tel:+918291039367", target='_blank') +91 829 103 9367
+        li
+          i.fa.fa-envelope
+          a(href='email:info@pinaklab.com', target='_blank') info@pinaklab.com
+        li
+          i.fa.fa-map-marker
+          | Pinaklab
+          br
+          |  Thane, Mumbai
+          br
+          | Pin – 400601

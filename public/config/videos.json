@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Digital Portfolio",
+    "name": "Digital Portfolio",
+    "image": "img/services/postman.png",
+    "url": "https://mojojo.com",
+    "description": "A excellent portfolio is the simplest way to showcase your talent."
+  },
+  {
+    "id": "2",
+    "name": "Free Photoshoot",
+    "name": "Free Photoshoot",
+    "image": "img/services/postman.png",
+    "url": "https://khwand.com",
+    "description": "A camera is save button for the mind’s eye.’ A single good photo can give away."
+  },
+  {
+    "id": "3",
+    "name": "Showreel",
+    "image": "img/services/postman.png",
+    "url": "http://malvern.co.za",
+    "description": "Crisp Creative and a Capturing introductory video about your work and experience."
+  },
+  {
+    "id": "4",
+    "name": "Content on Demand",
+    "image": "img/services/postman.png",
+    "url": "http://malvern.co.za",
+    "description": "We have minds that can process your need. Delivering content faster than you imagine."
+  }
+]

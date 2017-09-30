@@ -1,0 +1,57 @@
+.logo {
+  cursor: pointer;
+  float: left;
+  width: 180px;
+  height: 65px;
+  background-image: url('../../../public/img/logo.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+li {
+  cursor: pointer;
+}
+li:focus {
+  outline: #ffffff auto 5px !important;
+}
+li:active {
+  outline: #ffffff auto 5px !important;
+}
+.burger-margin{
+  margin-top: 6px !important;
+}
+.collapsed-margin{
+  margin-top: -10px;
+}
+@media (min-width: 767px) {
+  .navbar-margin{
+    margin-top: 10px;
+  }
+}
+
+.background-white{
+  background: #fff;
+}
+.header .main-nav .nav .nav-item a {
+  color: #343434;
+}
+.header .main-nav .nav .nav-item a:hover {
+  color: #D32F2F;
+  background: none;
+}
+.header .main-nav .nav .nav-item.active a {
+  color: #D32F2F;
+  background: none;
+  font-weight: bold;
+}
+.header .main-nav .navbar-toggle {
+  margin-right: 0;
+  margin-top: 0;
+  background: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.icon-bar{
+  background-color: #343434 !important;
+}

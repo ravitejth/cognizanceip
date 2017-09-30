@@ -1,0 +1,17 @@
+#header.header.navbar-fixed-top.background-white
+  .container
+    .logo(routerLink='/')
+    .main-nav.navbar-right(role='navigation')
+      .navbar-header
+        button.navbar-toggle.burger-margin(type='button', data-toggle='collapse', data-target='#navbar-collapse')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      #navbar-collapse.navbar-collapse.collapse.navbar-margin.collapsed-margin
+        ul.nav.navbar-nav(*ngFor='let item of menu')
+          li.nav-item(
+          routerLink='{{item.link}}',
+          routerLinkActive='active',
+          [routerLinkActiveOptions]='{exact: true}')
+            a {{item.title}}

@@ -1,0 +1,18 @@
+.services-headline-bg
+
+section.section.portfolio-section.section-on-bg
+  h2.title.container.text-center Our work speaks for itself.
+  p.intro.text-center Nothing worth presentable can be devised with minimal effort as we thrive to
+                      |  create designs with perennial impression.
+
+section.section.projects.section-margin-top
+  .container
+    .row
+      .service_item(*ngFor='let service of services')
+        .col-md-6.service-margin
+          .screenshot
+            img.img-responsive(src='{{service.image}}')
+
+          h3.project-title {{service.name}}
+          p {{service.description}}
+          a.btn.btn-primary(routerLink='/contact') Book Now

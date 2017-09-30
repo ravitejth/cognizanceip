@@ -1,0 +1,28 @@
+.body{
+  background: #343434 !important;
+}
+.no-border{
+  border-width: 0 !important;
+}
+.iframe-padding{
+  padding-bottom: 14px;
+  padding-top: 120px;
+}
+.video-detail-header-bg {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  height: 85px;
+  background: #253340 url('../../../public/img/background.jpg') no-repeat 50% top;
+  background-size: cover;
+}
+.description-margin-bottom{
+  margin-bottom: 25px;
+}
+@media (max-width: 767px) {
+  .player-margin {
+    margin-left: 15px;
+  }
+}

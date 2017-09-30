@@ -1,0 +1,30 @@
+@import "../../../stylesheets/index";
+
+.cta-section {
+  background: #253340 url('../../../../public/img/background.jpg') no-repeat left top;
+  background-size: cover;
+  min-height: 420px;
+  color: #fff;
+  padding-top: 130px;
+  border: none;
+}
+.cta-section .title {
+  font-size: 36px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.cta-section .btn-cta {
+  font-size: 20px;
+}
+.cta-section .intro {
+  margin-bottom: 15px;
+  color: #fff;
+}
+.cta-section .counting {
+  color: #ec6952;
+  font-weight: bold;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}

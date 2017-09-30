@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Digital Portfolio",
+    "image": "img/services/service1.jpg",
+    "description": "A excellent portfolio is the simplest way to showcase your talent. Make your presence felt with our customised portfolio services."
+
+  },
+  {
+    "name": "Free Photoshoot",
+    "image": "img/services/service2.jpg",
+    "description": "A camera is save button for the mind’s eye.’ A single good photo can give away a lot about you than thousand words. Open your doors to opportunities with our free photoshoot."
+  },
+  {
+    "name": "Showreel",
+    "image": "img/services/service3.jpg",
+    "description": "Crisp Creative and a Capturing introductory video about your work and experience."
+  },
+  {
+    "name": "Content on Demand",
+    "image": "img/services/service4.jpg",
+    "description": "We have minds that can process your need. Delivering content faster than you imagine."
+  },
+  {
+    "name": "Workshops",
+    "image": "img/services/service5.jpg",
+    "description": "A team to push you to your limits till you reach your goal. For we don’t just present you to the world raw, we polish you."
+  },
+  {
+    "name": "Live performance",
+    "image": "img/services/service3.jpg",
+    "description": "Good. Better. Best. Our live performances feed your passion and help you achieve success."
+  }
+]

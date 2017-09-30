@@ -1,0 +1,58 @@
+.services-headline-bg
+.video-dark-bg
+section.section.portfolio-section.section-on-bg
+  h2.title.container.text-center Checkout some of our videos.
+  p.intro.text-center Nothing worth presentable can be devised with minimal effort as we thrive to
+                      |  create designs with perennial impression.
+
+section.section-bg-dark.no-padding
+  .container.videos-margin-top
+    // Popular Section Header
+    .row
+      .col-lg-12
+        h2.page-header.header-color
+          | Popular Videos
+
+    // Popular Videos Row
+    .row
+      .video_item(*ngFor='let vid of videos_list')
+        .col-md-3.col-sm-4.portfolio-item(*ngIf="vid.category == 'popular'")
+          .img_wrap
+            a(routerLink='/video-detail/{{vid.id}}')
+              img.img-responsive(src='{{vid.image}}', alt='thumb not found')
+            .video_description_layer
+              a.img_description(routerLink='/video-detail/{{vid.id}}') {{vid.name}}
+
+
+    //Recent uploads Section Header
+    .row
+      .col-lg-12
+        h2.page-header.header-color
+          | Recent Uploads
+
+    // Recent uploads Row
+    .row
+      .video_item(*ngFor='let vid of videos_list')
+        .col-md-3.col-sm-4.portfolio-item(*ngIf="vid.category == 'recent'")
+          .img_wrap
+            a(routerLink='/video-detail/{{vid.id}}')
+              img.img-responsive(src='{{vid.image}}', alt='thumb not found')
+            .video_description_layer
+              a.img_description(routerLink='/video-detail/{{vid.id}}') {{vid.name}}
+
+
+    // Featured Section Header
+    .row
+      .col-lg-12
+        h2.page-header.header-color
+          | Featured Videos
+
+    // Featured Videos Row
+    .row
+      .video_item(*ngFor='let vid of videos_list')
+        .col-md-3.col-sm-4.portfolio-item(*ngIf="vid.category == 'featured'")
+          .img_wrap
+            a(routerLink='/video-detail/{{vid.id}}')
+              img.img-responsive(src='{{vid.image}}', alt='thumb not found')
+            .video_description_layer
+              a.img_description(routerLink='/video-detail/{{vid.id}}') {{vid.name}}

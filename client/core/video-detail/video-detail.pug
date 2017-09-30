@@ -1,0 +1,9 @@
+.video-detail-header-bg
+section.section-bg-dark.no-padding
+  .container.iframe-padding.player-margin
+    iframe.row.col-md-offset-2.col-md-8.no-border.col-sm-offset-1.col-sm-10.col-xs-12(width='840', height='480', [src]='url', allowfullscreen="allowfullscreen")
+  .container.player-margin
+    .row.col-md-offset-2.col-md-8.col-sm-offset-1.col-sm-10.col-xs-12.description-margin-bottom
+      h3
+        a(routerLink='/video-detail/{{video.id}}') {{video.name}}
+      p.description-color {{video.description}}
