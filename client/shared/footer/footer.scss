@@ -6,9 +6,6 @@
   position: relative;
   z-index: 20;
 }
-.footer p {
-  opacity: 0.5;
-}
 .footer .btn-cta,
 .footer a.btn-cta {
   padding: 9px 10px;
@@ -123,4 +120,17 @@
   .padding{
     padding-left: 25px;
   }
+}
+
+.title-underline{
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+  width: 140px;
+}
+.text-style{
+  padding-right: 25px;
+  text-align: justify;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #ffffff;
 }
