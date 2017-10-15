@@ -1,82 +1,11 @@
-.portfolio-item {
-  margin-bottom: 30px;
+.labhr{
+  border-color: #757575;
+  border-width: 2px;
+  max-width: 640px;
 }
-.no-padding{
-  padding: 0 ! important;
-}
-.video-header-bg {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: -2;
-  height: 400px;
-  background: #253340 url('../../../public/img/background.jpg') no-repeat 50% top;
-  background-size: cover;
-}
-.section-bg-dark{
-  background: #343434;
-}
-.videos-section {
-  position: relative;
-  z-index: 10;
-}
-.videos-section h2 {
-  font-size: 36px;
-  font-weight: 300;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  color: #fff;
-}
-.videos-section .intro {
-  max-width: 700px;
-  margin: 0 auto;
-  margin-bottom: 60px;
-  text-align: center;
-  font-size: 18px;
-}
-.videos-margin-top{
-  margin-top: -80px;
-}
-.header-color{
-  color: #dcdcdc;
-}
-.description-color{
-  color: #dcdcdc;
-}
-.section{
-  padding: 180px 0 110px 0 !important;
-}
-.video_item{}
-.description-height{
-  height: 30px;
-}
-.video_description_layer {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(52, 52, 52, 0.2);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
-.img_wrap:hover .video_description_layer {
-  visibility: visible;
-  opacity: 1;
-}
-.img_description {
-  transition: .2s;
-  transform: translateY(1em);
-}
-
-.img_wrap:hover .img_description {
-  transform: translateY(0);
+.white-fat-bar {
+  background: #ffffff;
+  max-height: 110px !important;
+  height: 110px !important;
+  padding: 0 !important;
 }
