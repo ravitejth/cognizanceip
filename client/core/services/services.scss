@@ -1,55 +1,14 @@
-.services-headline-bg {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: -2;
-  height: 500px;
-  background: #253340 url('../../../public/img/background.jpg') no-repeat 50% top;
-  background-size: cover;
+.services-section {
+  background: #253340 url('../../../public/img/background.jpg') no-repeat left top;
 }
-
-//TODO add media query
-.portfolio-section {
-  padding: 80px 0;
-  padding-top: 180px;
-  position: relative;
-  z-index: 10;
-
-  h2 {
-    font-size: 36px;
-    font-weight: 300;
-    margin-top: 0;
-    margin-bottom: 30px;
-    color: #fff;
-  }
-  p {
-    color: #ffffff;
-    margin-bottom: 80px;
-  }
+.serviceshr{
+  border-color: #757575;
+  border-width: 2px;
+  max-width: 540px;
 }
-
-.project-desc ul li {
-  color: rgb(126, 126, 126);
-}
-
-.projects {
-  .project {
-    background-image: linear-gradient(#F9F9F7,#fff 10%);
-    padding: 100px 60px;
-  }
-}
-
-.screenshot {
-  vertical-align: top;
-  box-shadow: 0 20px 20px rgba(40,40,40,0.3);
-}
-
-.section-margin-top{
-  margin-top: -130px;
-}
-
-.service_item{}
-.service-margin{
-  margin-top: 20px;
+.white-bar {
+  background: #ffffff;
+  max-height: 20px !important;
+  height: 20px !important;
+  padding: 0 !important;
 }
