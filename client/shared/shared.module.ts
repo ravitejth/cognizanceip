@@ -7,8 +7,6 @@ import { FormsModule }            from '@angular/forms';
 import { HeaderComponent }    from './header/header.component'
 import { FooterComponent }    from './footer/footer.component';
 import { NotFoundComponent }  from './not-found/not-found.component';
-import {TopBarComponent}      from "./top-bar/top-bar.component";
-import {SocialComponent}      from "./social/social.section";
 
 @NgModule({
   imports: [
@@ -19,16 +17,12 @@ import {SocialComponent}      from "./social/social.section";
   exports: [
     HeaderComponent,
     FooterComponent,
-    NotFoundComponent,
-    TopBarComponent,
-    SocialComponent
+    NotFoundComponent
   ],
   declarations: [
     HeaderComponent,
     FooterComponent,
-    NotFoundComponent,
-    TopBarComponent,
-    SocialComponent
+    NotFoundComponent
   ],
 })
 export class SharedModule { }

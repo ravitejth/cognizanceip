@@ -2,8 +2,8 @@
   cursor: pointer;
   float: left;
   width: 180px;
-  height: 65px;
-  background-image: url('../../../public/img/logo.png');
+  height: 63px;
+  background-image: url('../../../public/img/logo.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -35,11 +35,11 @@ li:active {
   color: #343434;
 }
 .header .main-nav .nav .nav-item a:hover {
-  color: #D32F2F;
+  color: #1D8F9A;
   background: none;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #D32F2F;
+  color: #1D8F9A;
   background: none;
   font-weight: bold;
 }

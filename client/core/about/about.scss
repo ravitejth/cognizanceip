@@ -1,16 +1,36 @@
-.about-headline-bg {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: -2;
-  height: 600px;
-  background: #253340 url('../../../public/img/background.jpg') no-repeat 50% top;
-  background-size: cover;
+.img-cover-section {
+  background: #063144;
+  min-height: 320px;
+  color: #fff;
+  padding-top: 130px;
 }
-.about-margin{
-  margin-top: 50px;
+.grey-section {
+  background: #e5e5e5;
 }
-.about-text{
-  font-size: 18px;
+.about-text-style{
+  width: 90%;
+  margin-left: 5%;
+  text-align: justify;
+}
+.about-text-margin{
+  margin-top: 40px;
+}
+.img-style{
+  border-radius: 50%;
+  width: 140px;
+}
+.content-text-align{
+  text-align: left;
+}
+.discription-justify{
+  text-align: justify;
+}
+.icon-font-size{
+  font-size: 30px;
+}
+.icon-margin{
+  margin-right: 25px;
+}
+.title-bold{
+  font-size: 22px;
 }

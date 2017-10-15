@@ -3,28 +3,76 @@
 .cta-section {
   background: #253340 url('../../../../public/img/background.jpg') no-repeat left top;
   background-size: cover;
-  min-height: 420px;
   color: #fff;
   padding-top: 130px;
   border: none;
 }
-.cta-section .title {
-  font-size: 36px;
-  font-weight: 300;
-  margin-top: 0;
-  margin-bottom: 60px;
+.white-section {
+  background: #ffffff;
 }
-.cta-section .btn-cta {
+.aqua-section {
+  background: #4FE3C1;
+  max-height: 20px !important;
+  height: 20px !important;
+  padding: 0 !important;
+}
+.cta-section .title {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.btn-cta {
   font-size: 20px;
 }
 .cta-section .intro {
   margin-bottom: 15px;
   color: #fff;
 }
-.cta-section .counting {
-  color: #ec6952;
-  font-weight: bold;
-  -webkit-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
+
+// underlines
+.invalidityhr{
+  border-color: #757575;
+  border-width: 2px;
+  max-width: 500px;
+}
+.patenthr{
+  border-color: #757575;
+  border-width: 2px;
+  max-width: 250px;
+}
+.aristotlehr{
+  border-color: #757575;
+  border-width: 2px;
+  max-width: 780px;
+  margin-top: -20px;
+}
+
+// headings styles
+.title-blue-large-thin{
+  font-weight: lighter;
+  color: #1D8F9A;
+  font-size: 45px;
+}
+
+.title-blue-large{
+  color: #1D8F9A;
+  font-size: 45px;
+}
+.title-white-large{
+  color: #fff;
+  font-size: 45px;
+}
+
+.font-blue{
+  color: #1D8F9A;
+}
+.font-grey{
+  color: #868686;
+}
+
+// other styles
+.title-margin{
+  margin-top: 20px !important;
+}
+.social-icon-size{
+  font-size: 60px;
 }
