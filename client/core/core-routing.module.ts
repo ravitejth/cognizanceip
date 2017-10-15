@@ -85,7 +85,7 @@ export const routes: Routes = [
         ]
     },
     {
-      path: 'video-detail/:id',
+      path: 'video-detail',
       children: [
         {
           path: '',

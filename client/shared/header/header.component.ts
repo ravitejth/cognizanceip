@@ -26,7 +26,7 @@ export class HeaderComponent {
     },
     {
       title: "Career",
-      link: "/contact"
+      link: "/video-detail"
     },
     {
       title: "Contact",

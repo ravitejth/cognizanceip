@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { VideosService } from "../../services/videos.service";
 
 @Component({
   selector: 'videos',
@@ -8,11 +7,4 @@ import { VideosService } from "../../services/videos.service";
 })
 
 export class VideosComponent {
-  private videos_list: any = [];
-
-  constructor(
-    private videosService: VideosService
-  ) {
-    this.videos_list = videosService.get();
-  }
 }

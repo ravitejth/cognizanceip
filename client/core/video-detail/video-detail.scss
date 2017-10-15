@@ -1,28 +1,19 @@
-.body{
-  background: #343434 !important;
+.details-width{
+    width: 70%;
+    margin-left: 15%;
 }
-.no-border{
-  border-width: 0 !important;
+.blue-badge{
+    background: #1D8F9A;
+    color: #ffffff;
+    height: 60px;
+    vertical-align: middle;
 }
-.iframe-padding{
-  padding-bottom: 14px;
-  padding-top: 120px;
+.badge-margin{
+    margin-top: 10px;
 }
-.video-detail-header-bg {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: -2;
-  height: 85px;
-  background: #253340 url('../../../public/img/background.jpg') no-repeat 50% top;
-  background-size: cover;
-}
-.description-margin-bottom{
-  margin-bottom: 25px;
-}
-@media (max-width: 767px) {
-  .player-margin {
-    margin-left: 15px;
+.blue-line-section {
+    background: #1D8F9A;
+    max-height: 3px !important;
+    height: 3px !important;
+    padding: 0 !important;
   }
-}
