@@ -6,8 +6,6 @@ import { AppComponent }  from './app.component';
 // ROUTING
 import { AppRoutingModule } from './app-routing.module';
 
-import { VideosService} from "../services/videos.service";
-
 @NgModule({
   imports: [
     BrowserModule,
@@ -19,7 +17,6 @@ import { VideosService} from "../services/videos.service";
   ],
   bootstrap: [
     AppComponent
-  ],
-  providers: [VideosService]
+  ]
 })
 export class AppModule { }

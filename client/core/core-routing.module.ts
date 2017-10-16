@@ -5,13 +5,14 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from '../shared/header/header.component';
 import { FooterComponent } from '../shared/footer/footer.component';
-import { ServicesComponent} from "./services/services";
-import {VideosComponent} from "./videos/videos";
-import {ContactComponent} from "./contact/contact";
-import {VideoDetailComponent} from "./video-detail/video-detail.component";
-import {DisclaimerComponent} from "./disclaimer/disclaimer";
-import {PrivacyComponent} from "./privacy/privacy";
-import {TermsComponent} from "./terms/terms";
+import { ExpertiseComponent} from './expertise/expertise';
+import { LabsComponent} from './labs/labs';
+import { JamesComponent} from './james-watt/james-watt';
+import { FaradayComponent} from './faraday/faraday';
+import { AristotleComponent} from './aristotle/aristotle';
+
+import { ContactComponent} from './contact/contact';
+import {VideoDetailComponent} from './video-detail/video-detail.component';
 
 
 // Route Configuration
@@ -51,7 +52,7 @@ export const routes: Routes = [
         ]
     },
     {
-        path: 'services',
+        path: 'expertise',
         children: [
             {
                 path: '',
@@ -59,7 +60,7 @@ export const routes: Routes = [
                 outlet: 'Header',
             }, {
                 path: '',
-                component: ServicesComponent
+                component: ExpertiseComponent
             }, {
                 path: '',
                 component: FooterComponent,
@@ -68,7 +69,7 @@ export const routes: Routes = [
         ]
     },
     {
-        path: 'videos',
+        path: 'labs',
         children: [
             {
                 path: '',
@@ -76,7 +77,7 @@ export const routes: Routes = [
                 outlet: 'Header',
             }, {
                 path: '',
-                component: VideosComponent
+                component: LabsComponent
             }, {
                 path: '',
                 component: FooterComponent,
@@ -85,7 +86,7 @@ export const routes: Routes = [
         ]
     },
     {
-      path: 'video-detail',
+      path: 'resources',
       children: [
         {
           path: '',
@@ -119,7 +120,7 @@ export const routes: Routes = [
         ]
     },
     {
-      path: 'disclaimer',
+      path: 'james-watt-lab',
       children: [
         {
           path: '',
@@ -127,7 +128,7 @@ export const routes: Routes = [
           outlet: 'Header',
         }, {
           path: '',
-          component: DisclaimerComponent
+          component: JamesComponent
         }, {
           path: '',
           component: FooterComponent,
@@ -136,7 +137,7 @@ export const routes: Routes = [
       ]
     },
     {
-    path: 'privacy',
+    path: 'faraday-lab',
     children: [
       {
         path: '',
@@ -144,7 +145,7 @@ export const routes: Routes = [
         outlet: 'Header',
       }, {
         path: '',
-        component: PrivacyComponent
+        component: FaradayComponent
       }, {
         path: '',
         component: FooterComponent,
@@ -153,7 +154,7 @@ export const routes: Routes = [
     ]
   },
     {
-    path: 'terms',
+    path: 'aristotle-lab',
     children: [
       {
         path: '',
@@ -161,7 +162,7 @@ export const routes: Routes = [
         outlet: 'Header',
       }, {
         path: '',
-        component: TermsComponent
+        component: AristotleComponent
       }, {
         path: '',
         component: FooterComponent,

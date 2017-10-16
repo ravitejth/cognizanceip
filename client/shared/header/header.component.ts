@@ -9,28 +9,28 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   menu = [
     {
-      title: "Home",
-      link: "/"
+      title: 'Home',
+      link: '/'
     },
     {
-      title: "Team",
-      link: "/about"
+      title: 'About',
+      link: '/about'
     },
     {
-      title: "Expertise",
-      link: "/services"
+      title: 'Expertise',
+      link: '/expertise'
     },
     {
-      title: "Resources",
-      link: "/videos"
+      title: 'Labs',
+      link: '/labs'
     },
     {
-      title: "Career",
-      link: "/video-detail"
+      title: 'Resources',
+      link: '/resources'
     },
     {
-      title: "Contact",
-      link: "/contact"
+      title: 'Contact',
+      link: '/contact'
     }
   ]
 }

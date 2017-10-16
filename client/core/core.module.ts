@@ -2,19 +2,17 @@ import { NgModule }      from '@angular/core';
 import { HttpModule }    from '@angular/http'
 import { CommonModule }  from '@angular/common'
 
-//COMPONENTS
-import { HomeComponent }    from './home/home.component';
-import { InvalidityComponent }     from './home/invalidity/invalidity.component';
-import { MainComponent }    from './home/main/main';
-import { TestimonialsComponent }     from './home/testimonials/testimonials.component';
-import { AboutComponent }   from './about/about.component';
-import { DisclaimerComponent }   from './disclaimer/disclaimer';
-import {ServicesComponent}  from "./services/services";
-import {VideosComponent}    from "./videos/videos";
-import {ContactComponent}   from "./contact/contact";
-import {VideoDetailComponent} from "./video-detail/video-detail.component";
-import {TermsComponent}       from "./terms/terms";
-import {PrivacyComponent}     from "./privacy/privacy";
+// COMPONENTS
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { ExpertiseComponent} from './expertise/expertise';
+import { LabsComponent} from './labs/labs';
+import { JamesComponent} from './james-watt/james-watt';
+import { FaradayComponent} from './faraday/faraday';
+import { AristotleComponent} from './aristotle/aristotle';
+
+import { ContactComponent} from './contact/contact';
+import {VideoDetailComponent} from './video-detail/video-detail.component';
 
 // ROUTING
 import { CoreRoutingModule } from './core-routing.module';
@@ -36,30 +34,24 @@ import { CarouselModule } from 'ngx-bootstrap';
     exports: [
       AboutComponent,
       HomeComponent,
-      InvalidityComponent,
-      MainComponent,
-      TestimonialsComponent,
-      ServicesComponent,
-      VideosComponent,
+      ExpertiseComponent,
+      LabsComponent,
       ContactComponent,
       VideoDetailComponent,
-      DisclaimerComponent,
-      PrivacyComponent,
-      TermsComponent
+      JamesComponent,
+      FaradayComponent,
+      AristotleComponent
     ],
     declarations: [
       AboutComponent,
       HomeComponent,
-      InvalidityComponent,
-      MainComponent,
-      TestimonialsComponent,
-      ServicesComponent,
-      VideosComponent,
+      ExpertiseComponent,
+      LabsComponent,
       ContactComponent,
       VideoDetailComponent,
-      DisclaimerComponent,
-      PrivacyComponent,
-      TermsComponent
+      JamesComponent,
+      FaradayComponent,
+      AristotleComponent
     ],
 })
 export class CoreModule { }
