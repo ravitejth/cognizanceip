@@ -7,30 +7,4 @@ import { Component } from '@angular/core';
 })
 
 export class HeaderComponent {
-  menu = [
-    {
-      title: 'Home',
-      link: '/'
-    },
-    {
-      title: 'About',
-      link: '/about'
-    },
-    {
-      title: 'Expertise',
-      link: '/expertise'
-    },
-    {
-      title: 'Labs',
-      link: '/labs'
-    },
-    {
-      title: 'Resources',
-      link: '/resources'
-    },
-    {
-      title: 'Contact',
-      link: '/contact'
-    }
-  ]
 }

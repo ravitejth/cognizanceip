@@ -9,9 +9,45 @@
           span.icon-bar
           span.icon-bar
       #navbar-collapse.navbar-collapse.collapse.navbar-margin.collapsed-margin
-        ul.nav.navbar-nav(*ngFor='let item of menu')
+        ul.nav.navbar-nav
           li.nav-item(
-          routerLink='{{item.link}}',
+          routerLink='/',
           routerLinkActive='active',
           [routerLinkActiveOptions]='{exact: true}')
-            a {{item.title}}
+            a Home
+
+          li.nav-item(
+          routerLink='/about',
+          routerLinkActive='active',
+          [routerLinkActiveOptions]='{exact: true}')
+            a About
+
+          li.nav-item(
+          routerLink='/expertise',
+          routerLinkActive='active',
+          [routerLinkActiveOptions]='{exact: true}')
+            a Expertise
+
+          li.nav-item(
+          routerLink='/labs',
+          routerLinkActive='active',
+          [routerLinkActiveOptions]='{exact: true}')
+            a Labs
+
+          li.dropdown
+            a.dropdown-style.dropdown-toggle(data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+              | Resources
+              span.caret
+            ul.dropdown-menu
+              li
+                a.dropdown-style(routerLink='/news') News
+              li
+                a.dropdown-style(routerLink='/brochures') Brochures
+              li
+                a.dropdown-style(routerLink='/case-studies') Case Studies
+
+          li.nav-item(
+          routerLink='/contact',
+          routerLinkActive='active',
+          [routerLinkActiveOptions]='{exact: true}')
+            a Contact                                            

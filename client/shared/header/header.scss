@@ -36,11 +36,11 @@ li:active {
 }
 .header .main-nav .nav .nav-item a:hover {
   color: #1D8F9A;
-  background: none;
+  background: none !important;
 }
 .header .main-nav .nav .nav-item.active a {
   color: #1D8F9A;
-  background: none;
+  background: none !important;
   font-weight: bold;
 }
 .header .main-nav .navbar-toggle {
@@ -54,4 +54,14 @@ li:active {
 .icon-bar{
   background-color: #343434 !important;
 }
-
+a:hover{
+  text-decoration: none !important;
+  background-color: none !important;
+}
+.dropdown-style{
+  color: #343434 !important;
+}
+.dropdown-style:hover{
+  color: #1D8F9A !important;
+  background-color: none !important;
+}
