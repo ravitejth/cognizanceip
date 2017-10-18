@@ -1,12 +1,42 @@
-section#cta-section.cta-section.text-center
+section
+  #myCarousel.carousel.slide(data-ride='carousel')
+    // Indicators
+    ol.carousel-indicators
+      li.active(data-target='#myCarousel', data-slide-to='0')
+      li(data-target='#myCarousel', data-slide-to='1')
+      li(data-target='#myCarousel', data-slide-to='2')
+      li(data-target='#myCarousel', data-slide-to='3')
+      li(data-target='#myCarousel', data-slide-to='4')
+    // Wrapper for slides
+    .carousel-inner.slider-height
+      .item.active
+        div
+          img.to-background(src='./img/slider/1.png', alt='Slide 1',)
+        div.to-foreground.slider-text
+          .title-white-large Make Profound IP Business Decisions
+      .item
+        div
+          img.to-background(src='./img/slider/2.png', alt='Slide 2',)
+        div.to-foreground.slider-text
+          .title-white-large Patent Databases bring you back 10,000 search results, We bring you back the right one
+      .item
+        div
+          img.to-background(src='./img/slider/3.png', alt='Slide 3',)
+        div.to-foreground.slide-3-text
+          .title-white-large ​Solve your IP complexity
+      .item
+        div
+          img.to-background(src='./img/slider/4.png', alt='Slide 4',)
+        div.to-foreground.slider-text
+          .title-white-large ​Be on the top of IP World
+      .item
+        div
+          img.to-background(src='./img/slider/5.png', alt='Slide 5',)
+        div.to-foreground.slide-5-text
+          .title-white-large ​Applied report for your business objectives
+section.text-center.white-section.pull-section-up
   .container
-    h1.title Invalidity Search Experts
-    hr.invalidityhr
-    .title.title-blue-large-thin WE SEE WHAT OTHERS OFTEN MISS
-    p.btn.btn-cta.btn-cta-primary(routerLink='/contact') Learn More
-section.text-center.white-section
-  .container
-    h2.title.title-blue-large-thin Patent Search Lab
+    h2.title.title-blue-large-thin Patent Search Labs
     hr.patenthr
 section.cta-section.text-center
   .container
@@ -14,14 +44,23 @@ section.cta-section.text-center
     h1.title.font-blue.title-margin Life Sciences
     hr.aristotlehr
     p Biotechnology - Pharma - Bio Medical - Checimal - Food Technology - Medicine - Genetic Enigneering
-    p.btn.btn-cta.btn-cta-primary(routerLink='/contact') Learn More
-//- section.text-center.white-section
-//-   .container
-//-     .title.title-blue-large-thin Our Clients
-//-     hr.patenthr    
-//- section.text-center.grey-section
-//-   .container    
-section.text-center.white-section
+section.white-fat-bar
+section.cta-section.text-center
+  .container
+    .title-white-large Faraday Search Lab
+    h1.title.font-blue.title-margin Electronics & Telecom
+    hr.aristotlehr
+    p Electronics - Eletrical - Semiconductor - Fiber Optics - Telecom Software - Security Surveillance - Touch Solutions - Networking
+section.white-fat-bar
+section.cta-section.text-center
+  .container
+    .title-white-large James Watt Search Lab
+    h1.title.font-blue.title-margin Mechanical & Others
+    hr.aristotlehr
+    p Mechanical - Civil - Industrial - Material Science
+    p.btn.btn-cta.btn-cta-primary(routerLink='/labs') Learn More
+section.white-fat-bar
+section.text-center.white-section.pull-section-up
   .container
     h2.title.title-blue-large-thin Why Cognizance IP
     hr.patenthr    
@@ -42,22 +81,16 @@ section.text-center.white-section
     p Let's Socialize   
     .row
       .social-icon-size
-        .col-md-1.col-md-offset-3
-          a.fa.fa-twitter(href ='https://facebook.com', target='_blank') 
+        .col-md-2.col-md-offset-2
+          a.fa.fa-twitter(href ='https://twitter.com/CognizanceIP', target='_blank') 
           p.font-grey Twitter
-        .col-md-1
-          a.fa.fa-facebook(href ='https://facebook.com', target='_blank')
+        .col-md-2
+          a.fa.fa-facebook(href ='https://www.facebook.com/cognizanceip/', target='_blank')
           p.font-grey Facebook
-        .col-md-1
-          a.fa.fa-linkedin(href ='https://facebook.com', target='_blank')
+        .col-md-2
+          a.fa.fa-linkedin(href ='https://in.linkedin.com/company/cognizance-ip', target='_blank')
           p.font-grey LinkedIn
-        .col-md-1
+        .col-md-2
           a.fa.fa-google-plus(href ='https://facebook.com', target='_blank')  
           p.font-grey Google+
-        .col-md-1
-          a.fa.fa-youtube(href ='https://facebook.com', target='_blank')
-          p.font-grey YouTube
-        .col-md-1
-          a.fa.fa-instagram(href ='https://facebook.com', target='_blank')
-          p.font-grey Instagram
 section.aqua-section

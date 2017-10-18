@@ -185,7 +185,7 @@ export const routes: Routes = [
     ]
   },
     {
-    path: 'novelty-search',
+    path: 'patentability-search',
     children: [
       {
         path: '',
