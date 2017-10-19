@@ -9,3 +9,29 @@
   height: 110px !important;
   padding: 0 !important;
 }
+.aristotle-cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../public/img/covers/1.png') no-repeat left top;
+  background-size: cover;
+  color: #fff;
+  padding-top: 130px;
+  border: none;
+}
+.faraday-cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../public/img/covers/2.png') no-repeat left top;
+  background-size: cover;
+  color: #fff;
+  padding-top: 130px;
+  border: none;
+}
+.james-cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../public/img/covers/3.png') no-repeat left top;
+  background-size: cover;
+  color: #fff;
+  padding-top: 130px;
+  border: none;
+}
+.faradayhr {
+  border-color: #757575;
+  border-width: 2px;
+  max-width: 780px;
+}
