@@ -23,9 +23,9 @@ import { AristotleComponent}  from './aristotle/aristotle';
 import { NewsComponent}       from './news/news';
 import { BrochuresComponent}  from './brochures/brochures';
 import { CasesComponent}      from './case-studies/case-studies';
+import { CareerComponent}     from './career/career'
 
 import { ContactComponent}    from './contact/contact';
-import {VideoDetailComponent} from './video-detail/video-detail.component';
 
 // ROUTING
 import { CoreRoutingModule } from './core-routing.module';
@@ -50,7 +50,6 @@ import { CarouselModule } from 'ngx-bootstrap';
       ExpertiseComponent,
       LabsComponent,
       ContactComponent,
-      VideoDetailComponent,
       JamesComponent,
       FaradayComponent,
       AristotleComponent,
@@ -63,7 +62,8 @@ import { CarouselModule } from 'ngx-bootstrap';
       PriorComponent,
       NewsComponent,
       BrochuresComponent,
-      CasesComponent
+      CasesComponent,
+      CareerComponent
     ],
     declarations: [
       AboutComponent,
@@ -71,7 +71,6 @@ import { CarouselModule } from 'ngx-bootstrap';
       ExpertiseComponent,
       LabsComponent,
       ContactComponent,
-      VideoDetailComponent,
       JamesComponent,
       FaradayComponent,
       AristotleComponent,
@@ -84,7 +83,8 @@ import { CarouselModule } from 'ngx-bootstrap';
       PriorComponent,
       NewsComponent,
       BrochuresComponent,
-      CasesComponent
+      CasesComponent,
+      CareerComponent
     ],
 })
 export class CoreModule { }

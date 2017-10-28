@@ -25,9 +25,9 @@ import { AristotleComponent}  from './aristotle/aristotle';
 import { NewsComponent}       from './news/news';
 import { BrochuresComponent}  from './brochures/brochures';
 import { CasesComponent}      from './case-studies/case-studies';
+import { CareerComponent}     from './career/career';
 
 import { ContactComponent}    from './contact/contact';
-import {VideoDetailComponent} from './video-detail/video-detail.component';
 
 // Route Configuration
 export const routes: Routes = [
@@ -98,23 +98,6 @@ export const routes: Routes = [
                 outlet: 'Footer',
             },
         ]
-    },
-    {
-      path: 'resources',
-      children: [
-        {
-          path: '',
-          component: HeaderComponent,
-          outlet: 'Header',
-        }, {
-          path: '',
-          component: VideoDetailComponent
-        }, {
-          path: '',
-          component: FooterComponent,
-          outlet: 'Footer',
-        },
-      ]
     },
     {
         path: 'contact',
@@ -353,7 +336,24 @@ export const routes: Routes = [
         outlet: 'Footer',
       },
     ]
-  }
+  },
+    {
+    path: 'career',
+    children: [
+      {
+        path: '',
+        component: HeaderComponent,
+        outlet: 'Header',
+      }, {
+        path: '',
+        component: CareerComponent
+      }, {
+        path: '',
+        component: FooterComponent,
+        outlet: 'Footer',
+      },
+    ]
+    }
 ];
 
 @NgModule({

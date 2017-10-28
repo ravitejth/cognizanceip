@@ -1,5 +1,5 @@
 section.main-section-padding
-  #myCarousel.carousel.slide(data-ride='carousel')
+  #myCarousel.carousel.slide.slider-height(data-ride='carousel')
     // Indicators
     ol.carousel-indicators
       li.active(data-target='#myCarousel', data-slide-to='0')
@@ -8,32 +8,37 @@ section.main-section-padding
       li(data-target='#myCarousel', data-slide-to='3')
       li(data-target='#myCarousel', data-slide-to='4')
     // Wrapper for slides
-    .carousel-inner.slider-height
+    .carousel-inner
       .item.active
-        div
-          img.to-background(src='./img/slider/1.png', alt='Slide 1',)
-        div.to-foreground.slider-text
-          .title-white-large Make Profound IP Business Decisions
+        div.slider-bg.slider-image-1
+        div.slider-text
+          .title-white-large-thin MAKE PROFOUND 
+            span.highlight-text IP 
+            | BUSINESS DECISIONS
+            hr.slider-1-hr
       .item
-        div
-          img.to-background(src='./img/slider/2.png', alt='Slide 2',)
-        div.to-foreground.slider-text
-          .title-white-large Patent Databases bring you back 10,000 search results, We bring you back the right one
+        div.slider-bg.slider-image-2
+        div.slider-text.slider-text-2
+          .title-white-large-thin Patent Databases bring you back 10,000 search results, We bring you back the right one   
       .item
-        div
-          img.to-background(src='./img/slider/3.png', alt='Slide 3',)
-        div.to-foreground.slide-3-text
-          .title-white-large ​Solve your IP complexity
+        div.slider-bg.slider-image-3
+        div.slider-text
+          .title-white-large-thin ​SOLVE YOUR 
+            span.highlight-text IP 
+            | COMPLEXITY
+            hr.slider-34-hr
       .item
-        div
-          img.to-background(src='./img/slider/4.png', alt='Slide 4',)
-        div.to-foreground.slider-text
-          .title-white-large ​Be on the top of IP World
+        div.slider-bg.slider-image-4
+        div.slider-text
+          .title-white-large-thin BE ON TOP OF THE 
+            span.highlight-text IP 
+            | WORLD
+            hr.slider-34-hr
       .item
-        div
-          img.to-background(src='./img/slider/5.png', alt='Slide 5',)
-        div.to-foreground.slide-5-text
-          .title-white-large ​Applied report for your business objectives
+        div.slider-bg.slider-image-5
+        div.slider-text
+          .title-white-large-thin APPLIED REPORT FOR YOUR BUSINESS OBJECTIVES
+            hr.slider-5-hr                         
 section.white-section.text-center 
   .container
     .title-blue-large-thin PATENT SEARCH LABS
@@ -62,13 +67,27 @@ section.james-cover.text-center
     hr.faradayhr
     p Mechanical - Civil - Industrial - Material Science
     p.btn.btn-cta.btn-cta-primary(routerLink='/james-watt-lab') Learn More
+section.text-center.white-section
+  .container
+    h2.title.title-blue-large-thin Our Clients
+    hr.patenthr       
+section.grey-section.text-center
+  .container
+    h2.title Lorem Ipsum    
+section.text-center.white-section
+  .container
+    h2.title.title-blue-large-thin Why Cognizance IP
+    hr.patenthr       
+section.cta-section.text-center
+  .container
+    h2.title.font-blue Because we solve your IP business objectives 
 //- section.text-center.white-section
 //-   .container
 //-     h2.title.title-blue-large-thin Clients Speak
 //-     hr.patenthr       
 //- section.cta-section.text-center
 //-   .container
-//-     h2.title Lorem Ipsum    
+//-     h2.title Lorem Ipsum        
 section.text-center.white-section
   .container
     h2.title.title-blue-large-thin We Are Social
@@ -86,6 +105,6 @@ section.text-center.white-section
           a.fa.fa-linkedin(href ='https://in.linkedin.com/company/cognizance-ip', target='_blank')
           p.font-grey LinkedIn
         .col-md-2
-          a.fa.fa-google-plus(href ='https://facebook.com', target='_blank')  
+          a.fa.fa-google-plus(href ='https://plus.google.com/100219634039958050227', target='_blank')  
           p.font-grey Google+
 section.aqua-section
