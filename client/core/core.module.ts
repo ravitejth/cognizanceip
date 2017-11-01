@@ -27,6 +27,8 @@ import { CasesComponent}      from './case-studies/case-studies';
 import { CareerComponent}     from './career/career'
 
 import { ContactComponent}    from './contact/contact';
+import { PrivacyComponent}    from './privacy/privacy';
+import { TermsComponent}      from './terms/terms';
 
 // ROUTING
 import { CoreRoutingModule } from './core-routing.module';
@@ -67,7 +69,9 @@ import { CarouselModule } from 'ngx-bootstrap';
       NewsComponent,
       BrochuresComponent,
       CasesComponent,
-      CareerComponent
+      CareerComponent,
+      PrivacyComponent,
+      TermsComponent
     ],
     declarations: [
       AboutComponent,
@@ -88,7 +92,9 @@ import { CarouselModule } from 'ngx-bootstrap';
       NewsComponent,
       BrochuresComponent,
       CasesComponent,
-      CareerComponent
+      CareerComponent,
+      PrivacyComponent,
+      TermsComponent
     ],
 })
 export class CoreModule { }

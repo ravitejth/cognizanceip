@@ -28,6 +28,8 @@ import { CasesComponent}      from './case-studies/case-studies';
 import { CareerComponent}     from './career/career';
 
 import { ContactComponent}    from './contact/contact';
+import { PrivacyComponent}    from './privacy/privacy';
+import { TermsComponent}      from './terms/terms';
 
 // Route Configuration
 export const routes: Routes = [
@@ -347,6 +349,40 @@ export const routes: Routes = [
       }, {
         path: '',
         component: CareerComponent
+      }, {
+        path: '',
+        component: FooterComponent,
+        outlet: 'Footer',
+      },
+    ]
+    },
+    {
+    path: 'privacy',
+    children: [
+      {
+        path: '',
+        component: HeaderComponent,
+        outlet: 'Header',
+      }, {
+        path: '',
+        component: PrivacyComponent
+      }, {
+        path: '',
+        component: FooterComponent,
+        outlet: 'Footer',
+      },
+    ]
+    },
+    {
+    path: 'terms',
+    children: [
+      {
+        path: '',
+        component: HeaderComponent,
+        outlet: 'Header',
+      }, {
+        path: '',
+        component: TermsComponent
       }, {
         path: '',
         component: FooterComponent,

@@ -20,9 +20,6 @@ li:active {
 .burger-margin{
   margin-top: 6px !important;
 }
-.collapsed-margin{
-  margin-top: -10px;
-}
 @media (min-width: 767px) {
   .navbar-margin{
     margin-top: 10px;
@@ -65,4 +62,9 @@ a:hover{
 .dropdown-style:hover{
   color: #1D8F9A !important;
   background-color: none !important;
+}
+@media (max-width: 767px){
+  .nav-collapsed-margin{
+    margin-top: -26px;
+  }
 }

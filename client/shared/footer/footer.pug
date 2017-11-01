@@ -3,7 +3,7 @@
     .container
       .row
 
-        .footer-col.links.col-md-5.col-sm-5.col-xs-12
+        .footer-col.links.col-md-3.col-sm-4.col-xs-12
           .row.padding
             .footer-col-inner
               h3.title.title-underline Headquarter
@@ -13,7 +13,7 @@
                 br
                 | Contact: +91-0123456789
 
-        .footer-col.links.col-md-3.col-sm-3.col-xs-6
+        .footer-col.links.col-md-3.col-sm-4.col-xs-12
           .row.padding
             .footer-col-inner
               h3.title.title-underline Reach Out
@@ -25,36 +25,41 @@
                 br
                 | +91-9643210337
 
-        .footer-col.links.col-md-4.col-sm-4.col-xs-6
+        .footer-col.links.col-md-3.col-sm-4.col-xs-12
+          .row.padding
+            .footer-col-inner
+              h3.title.title-underline Quick Links
+              ul.list-unstyled
+                //- li(routerLink='/')
+                //-   a The Company
+                li(routerLink='/about')
+                  a Team
+                li(routerLink='/career')
+                  a Careers
+                li(routerLink='/labs')
+                  a Labs
+                li(routerLink='/expertise')
+                  a Patent Solutions                  
+                li(routerLink='/privacy')
+                  a Privacy Policy
+                li(routerLink='/terms')
+                  a Terms of Use
+
+        .footer-col.links.col-md-3.col-sm-4.col-xs-12
           .row.padding
             .footer-col-inner
               h3.title.title-underline Twitter Feed
               a.twitter-timeline(data-width='240', data-height='180', data-chrome="nofooter noheader noborders noscrollbar transparent", data-theme='dark', href='https://twitter.com/CognizanceIP?ref_src=twsrc%5Etfw') Tweets by CognizanceIP
 
-        .footer-col.links.col-md-5.col-sm-5.col-xs-12
-          .row.padding
-            .footer-col-inner
-              h3.title.title-underline Disclaimer
-              p.text-style The information contained in this website is for general information purposes only. The information
-                | is provided by CognizanceIP and while we endeavour to keep the information up to date and correct, we make
-                | no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability
-                | suitability or availability with respect to the website or the information, products,
+        //- .footer-col.links.col-md-5.col-sm-5.col-xs-12
+        //-   .row.padding
+        //-     .footer-col-inner
+        //-       h3.title.title-underline Disclaimer
+        //-       p.text-style The information contained in this website is for general information purposes only. The information
+        //-         | is provided by CognizanceIP and while we endeavour to keep the information up to date and correct, we make
+        //-         | no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability
+        //-         | suitability or availability with respect to the website or the information, products,
 
-        .footer-col.links.col-md-3.col-sm-3.col-xs-6
-          .row.padding
-            .footer-col-inner
-              h3.title.title-underline Quick Links
-              ul.list-unstyled
-                li(routerLink='/')
-                  a The Company
-                li(routerLink='/about')
-                  a Team
-                li(routerLink='/')
-                  a Careers
-                li(routerLink='/expertise')
-                  a Patent Solutions
-                li(routerLink='/labs')
-                  a Labs
       .row.padding
         p.text-style &copy; 2017 CognizanceIP. All Rights Reserved.Images are for design purposes only with actors appearing in some photos.
-          | Attorney Advertising.Prior results do not guarantee similar outcome.
+          | Attorney Advertising. Prior results do not guarantee similar outcome.
