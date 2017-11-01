@@ -12,6 +12,7 @@
   "author": "Ritesh Ranjan <ritesrnjn@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@agm/core": "^1.0.0-beta.2",
     "@angular/common": "~4.3.1",
     "@angular/compiler": "~4.3.1",
     "@angular/core": "~4.3.1",

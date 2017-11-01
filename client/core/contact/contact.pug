@@ -1,54 +1,57 @@
 .contact-headline-bg
-
-section#mail-anchor.contact-section.section.section-on-bg
+section.text-center.white-section.trim-sec-1-bottom
   .container
-    h2.title.text-center Contact Us
-    p.intro.text-center
-      | Let us know if you have any query, Don't hesitate to ping US up. we’d love to hear from you and are always ready to sail with you.
-    form#contact-form.contact-form(method='post', action='https://formspree.io/vkyvarma@gmail.com')
+    .title.title-blue-large-thin CONTACT US
+    h2.text-center.font-grey We Do The Rest
+    hr.contact-hr    
+section#mail-anchor.contact-section.contact-form-align
+    //- .container
+    //-   h2.title.text-center Contact Us
+    //-   p.intro.text-center
+    //-     | Let us know if you have any query, Don't hesitate to ping US up. we’d love to hear from you and are always ready to sail with you.
+    form#contact-form.contact-form(method='post', action='https://formspree.io/info@cognizanceip.com')
       .row.text-center
         .contact-form-inner.col-md-offset-2.col-sm-offset-0.xs-offset-0.col-xs-12.col-md-8
           .row
             .form-group.col-xs-12.col-sm-6
               label.sr-only(for='cname') Your name
-              input#cname.form-control(type='text', name='name', placeholder='Your name', minlength='2', required='')
+              input#cname.form-control(type='text', name='name', placeholder='Your name', minlength='2', required)
             .form-group.col-xs-12.col-sm-6
               label.sr-only(for='cemail') Email address
-              input#cemail.form-control(type='email', name='_replyto', placeholder='Your email address', required='')
+              input#cemail.form-control(type='email', name='_replyto', placeholder='Your email address', required)
             .form-group.col-xs-12.col-sm-6
               label.sr-only(for='city') City
-              input#city.form-control(type='text', name='city', placeholder='City', minlength='2', required='')
+              input#city.form-control(type='text', name='city', placeholder='City')
             .form-group.col-xs-12.col-sm-6
               label.sr-only(for='phone') Phone
-              input#phone.form-control(type='text', name='phone', placeholder='Phone', required='')
+              input#phone.form-control(type='text', name='phone', placeholder='Phone')
             .form-group.col-xs-12
               label.sr-only(for='cmessage') Your message
-              textarea#cmessage.form-control(name='message', placeholder='Enter your message', rows='6', required='')
+              textarea#cmessage.form-control(name='message', placeholder='Enter your message', rows='6', required)
             .form-group.col-xs-12
               button.btn.btn-block.btn-cta.btn-cta-primary(type='submit') Send Message
-          // //row
-      // //row
       #form-messages
-    // //contact-form
-  // //container
-// //contact-section
+
 // ******Other Contact Section******
-section.contact-other-section.section
+section.contact-other-section.contact-details-padding
   .container.text-center
     h2.title Other ways to reach us
     p.intro You can also get in touch with us by phone or mail.
     .row
       ul.other-info.list-unstyled.col-md-6.col-sm-10.col-xs-12.col-md-offset-3.col-sm-offset-1.xs-offset-0
-        li
+        li.no-pointer
           i.fa.fa-phone
           a(href="tel:+919643210337", target='_blank') +91-9643210337
-        li
+        li.no-pointer
           i.fa.fa-envelope
-          a(href='email:vkyvarma@gmail.com', target='_blank') vkyvarma@gmail.com
-        li
+          a(href='email:info@cognizanceip.com', target='_blank') info@cognizanceip.com
+        li.no-pointer
           i.fa.fa-map-marker
           | #157, SBP Business Park,
           br
           | Chandigarh (UT)
           br
           | Pin – 160002
+section.map-pull-up 
+  agm-map([latitude]='lat', [longitude]='lng', [zoom]='z_level')
+    agm-marker([latitude]='lat', [longitude]='lng')

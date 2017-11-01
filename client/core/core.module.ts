@@ -1,6 +1,7 @@
 import { NgModule }      from '@angular/core';
 import { HttpModule }    from '@angular/http'
 import { CommonModule }  from '@angular/common'
+import { AgmCoreModule } from '@agm/core';
 
 // COMPONENTS
 import { HomeComponent }  from './home/home.component';
@@ -42,7 +43,10 @@ import { CarouselModule } from 'ngx-bootstrap';
       HttpModule,
       CoreRoutingModule,
       SharedModule,
-      CarouselModule.forRoot()
+      CarouselModule.forRoot(),
+      AgmCoreModule.forRoot({
+        apiKey: 'AIzaSyDZUlHW2CHhPnU6TCjtz2d_jDfQlRZA5tM'
+      })
     ],
     exports: [
       AboutComponent,
