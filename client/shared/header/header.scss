@@ -1,10 +1,10 @@
 .logo {
   cursor: pointer;
   float: left;
-  width: 180px;
+  width: 215px;
   height: 63px;
   background-image: url('../../../public/img/logo.png');
-  background-size: 125%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -67,4 +67,13 @@ a:hover{
   .nav-collapsed-margin{
     margin-top: -26px;
   }
+}
+.header-bg {
+  position: relative;
+  background-size: 100%;
+  min-height: auto;
+  text-align: center;
+  color: white;
+  background-image: url('../../../public/img/header.jpg');
+  background-position: center;
 }

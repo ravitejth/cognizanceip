@@ -255,6 +255,7 @@ html {
 }
 .slider-bg{
   background-size: cover;
+  width: 100%;
   color: #fff;
   padding-top: 520px;
   border: none;
@@ -263,16 +264,21 @@ html {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/slider/1.png') no-repeat left top;
 }
 .slider-image-2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/slider/1.png') no-repeat left top;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/slider/2.png') no-repeat left top;
 }
 .slider-image-3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/slider/1.png') no-repeat left top;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/slider/3.png') no-repeat left top;
 }
 .slider-image-4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/slider/1.png') no-repeat left top;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/slider/4.png') no-repeat left top;
 }
 .slider-image-5 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/slider/1.png') no-repeat left top;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../public/img/slider/5.png') no-repeat left top;
+}
+.slider-img-size{
+  background-size: 100%;
+  // filter: grayscale(100%);
+  background-position: center;
 }
 .carousel-indicators .active {
   background-color: #1D8F9A;
