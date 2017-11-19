@@ -1,0 +1,61 @@
+.p-style{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 20px;
+}
+.job-title-div{
+    background: #fff;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+.job-title-div:hover{
+    cursor: pointer;
+}
+.job-title-style{
+    font-size: 22px;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.toggle-res{
+    width: 30px;
+    float: right;
+    margin-right: 20px;
+}
+.div-margin{
+    margin-top: 20px;
+}
+.pic-style{
+    border-radius: 50%;
+    width: 90px;
+}
+.qus-margin{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.title-style{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.zero-mar{
+    margin-bottom: 0px;
+}
+.text-bold{
+    font-weight: bold;
+}
+.white-background{
+    background: #fff;
+    margin-left: -10px;
+    padding-left: 10px;
+}
+@media (max-width: 450px) {
+    .mobile-margin{
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+    .mobile-adjust{
+        margin-top: 20px;
+    }
+}

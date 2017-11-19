@@ -1,4 +1,115 @@
-section.text-center.white-section
+section.aristotle-cover.text-center.expanded-cover
   .container
-    h2.title.title-blue-large-thin Coming Soon
-    hr.patenthr
+    .title-white-large Join us!
+    h2.font-blue We're a team that sees possibilities, thrills customers, solves clients problems and innovates with abandon.
+    h2.font-blue We are always on the lookout for passionate people to join our team. We enjoy what we do, but we really love helping our 
+                 | clients.<br> Sounds like you? Join us!
+
+section.white-section.text-center
+  .container.title-blue-large-thin
+    h1.badge-margin Work Together With The Awesome People
+  p.p-style Cognizance IP success is based on its people - on on their great ideas, thrie passion, the courage to explore
+               | new paths and the aim to make an impact. We're creating the future of patent services thats helps clients to
+               | to make smarter IP business decisions. And we are having fun doing it. Cognizance IP employees are extremely
+               | passionate about what we do and how their contribution propels our mission forward. In an inspiring
+               | working atmosphere we offer you flat hierarchies, freedom and the opportunity to play a key role. Our
+               | office is an awesome and super modern open space located in the city beautiful - Chandigarh.
+  p.p-style We have great teams in place and we're always looking for more.Even if you don't see the perfect role for you,
+               | shoot us an email. Wh knows, we might be able to create a role that could use your skills.          
+
+section.grey-section
+  .row
+    .container.title-blue-large-thin
+      h1.badge-margin Current Openings
+    .col-md-offset-1.col-md-6.col-sm-12.mobile-margin
+      .job-title-div((click)="isexpanded1()")
+        .job-title-style Senior Patent Analyst
+          img.toggle-res(src='./img/plus.png', alt='img not found')
+      div.white-background(*ngIf='expanded1')
+        p.text-bold <br>Job Title: Senior Patent Analyst (2-4 years of industry experience)<br><br>Overall Responsibilities:<br>
+        ul
+          li Develop accurate understanding of projects (both technical and non-technical), understand SOPs and other specifics related to different projects
+          li Creating project plans and monitoring execution of project plans, with the guidance of senior team member(s).
+          li Measure, Monitor and Implement quality assurance of work product (prior art assessment, infringement analysis, landscape, etc.)
+          li Assist senior team member(s) in understanding customer environment & creating repository 
+          li Follow defined processes to ensure effective & timely delivery
+        p.text-bold Skills set:<br>
+        ul
+          li In-depth knowledge of various searching & analytics databases (Eg: Thomson Innovation, Orbit, PatSeer, etc.)
+          li In-depth knowledge in the Technology, Excellent MS Office skills
+          li Experience in – Prior art search, Patentability search, Evidence-of-use, Invalidity search, Infringement analysis, claims chart mapping, and patent landscape.
+        p.text-bold Qualifications:<br>
+        ul
+          li Engineering degree in Computer Science/Mechanical/Electronics & Communications/Biotech/Telecom
+        p.text-bold Location, Schedule & Shift:<br>
+        ul
+          li Chandigarh
+          li Full-Time
+          li Day Shift
+
+      .job-title-div((click)="isexpanded2()")
+        .job-title-style Senior Business Consultant
+          img.toggle-res(src='./img/plus.png', alt='img not found')
+      div.white-background(*ngIf='expanded2')
+        p.text-bold <br>Job Title: Senior Business Consultant - (2+ Years of work experience)<br><br>Overall Responsibilities:<br>
+        ul
+          li Ability to understand a problem statement and implement analytical solutions & techniques independently or with minimal supervision
+          li Work and collaborate with other teams to deliver and create value for clients
+          li Conduct research and prototyping innovations; data and requirements gathering; solution scoping and architecture; consulting clients and client facing teams on advanced statistical and machine learning problems.
+          li Ability to deliver AIML based solutions around a host of domains and problems, with some of them being: Customer Segmentation & Targeting, Propensity Modeling, Churn Modeling, Lifetime Value Estimation, Forecasting, Recommender Systems, Modeling Response to Incentives, Marketing Mix Optimization.
+        p.text-bold Experience Required:<br>
+        ul
+          li 2+ years relevant experience
+          li Intermediate to expert level proficiency in at least one of R and Python
+          li Ability to discover effective solutions to complex problems. Strong skills in data-mining.
+          li Experience of working on a project end-to-end: problem scoping, data gathering, EDA, modeling, insights, and visualizations
+          li Problem-solving: Ability to break the problem into small problems and think of relevant techniques
+          li Intermediate to advanced knowledge of machine learning, probability theory, statistics, and algorithms. You will be required to discuss and use various algorithms and approaches on a daily basis.
+        p.text-bold Good to Have:<br>
+        ul
+          li B.Tech / M.Tech in Computer Science / Electronics/ Signal Processing/Telecom/BioTech/Mechanical or related fields from one of the premier Institutes (IITs/NITs/BITS)
+        p.text-bold Location, Schedule & Shift:<br>
+        ul
+          li Chandigarh
+          li Full-Time
+          li Day Shift 
+
+      .job-title-div((click)="isexpanded3()")
+        .job-title-style Data Scientist/Data Analyst
+          img.toggle-res(src='./img/plus.png', alt='img not found')
+      div.white-background(*ngIf='expanded3')
+        p.text-bold <br>Job Title: Senior Data Scientist - (2+ Years of work experience)<br><br>Overall Responsibilities:<br>
+        ul
+          li Ability to understand a problem statement and implement analytical solutions & techniques independently or with minimal supervision
+          li Work and collaborate with other teams to deliver and create value for clients
+          li Conduct research and prototyping innovations; data and requirements gathering; solution scoping and architecture; consulting clients and client facing teams on advanced statistical and machine learning problems.
+          li Ability to deliver AIML based solutions around a host of domains and problems, with some of them being: Customer Segmentation & Targeting, Propensity Modeling, Churn Modeling, Lifetime Value Estimation, Forecasting, Recommender Systems, Modeling Response to Incentives, Marketing Mix Optimization.
+        p.text-bold Experience Required:<br>
+        ul
+          li 2+ years relevant experience
+          li Intermediate to expert level proficiency in at least one of R and Python
+          li Ability to discover effective solutions to complex problems. Strong skills in data-mining.
+          li Experience of working on a project end-to-end: problem scoping, data gathering, EDA, modeling, insights, and visualizations
+          li Problem-solving: Ability to break the problem into small problems and think of relevant techniques
+          li Intermediate to advanced knowledge of machine learning, probability theory, statistics, and algorithms. You will be required to discuss and use various algorithms and approaches on a daily basis.
+        p.text-bold Good to Have:<br>
+        ul
+          li B.Tech / M.Tech in Computer Science / Electronics/ Signal Processing/Telecom/BioTech/Mechanical or related fields from one of the premier Institutes (IITs/NITs/BITS)
+        p.text-bold Location, Schedule & Shift:<br>
+        ul
+          li Chandigarh
+          li Full-Time
+          li Day Shift 
+
+
+    .col-md-5.mobile-margin.mobile-adjust
+      figure.profile
+        img.pic-style(src='./img/team/siddharth.jpg', alt='siddharth')
+      p.qus-margin Question? Get in touch!  
+      p.title-style Niraj Kumar
+      p.zero-mar          
+        i.fa.fa-envelope
+        a(href='email:info@cognizanceip.com', target='_blank')  niraj.kumar@cognizanceip.com
+      p.zero-mar           
+        i.fa.fa-phone
+        a(href="tel:+919643210337", target='_blank')  +91-9643210337
