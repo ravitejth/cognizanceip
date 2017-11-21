@@ -371,20 +371,21 @@ html {
 .active > div:first-child + div + div + div { display:block; }
 }
 
-.block {
-width: 306px;
-height: 230px;
-}
-
-.red {background: red;}
-
-.blue {background: blue;}
-
-.green {background: green;}
-
-.yellow {background: yellow;}
-
 .img-responsive{
-  width: 200px;
-  height: 200px;
+  width: 280px;
+  height: 180px;
+}
+.logo-container{
+  margin-left: 3% !important;
+  width: 97%;
+}
+@media (max-width: 450px) {
+  .img-responsive{
+    width: 175px;
+    height: 110px;
+  }
+  .logo-container{
+    margin-left: 1% !important;
+    width: 99%;
+  }
 }
