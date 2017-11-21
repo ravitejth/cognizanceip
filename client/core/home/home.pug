@@ -62,13 +62,45 @@ section.james-cover.text-center
     hr.faradayhr
     p Mechanical - Civil - Industrial - Material Science
     p.btn.btn-cta.btn-cta-primary(routerLink='/james-watt-lab') Learn More
-//- section.text-center.white-section
-//-   .container
-//-     h2.title.title-blue-large-thin Our Clients
-//-     hr.patenthr       
-//- section.grey-section.text-center
-//-   .container
-//-     h2.title Lorem Ipsum    
+section.text-center.white-section
+  .container
+    h2.title.title-blue-large-thin Our Clients
+    hr.patenthr       
+section.grey-section.text-center
+  .container
+    .row
+      .col-xs-11.col-md-10.col-centered
+        #carousel.carousel.slide(data-ride='carousel', data-type='multi', data-interval='4800')
+          .carousel-inner
+            .item.active
+              .carousel-col
+                img.img-responsive(src="./img/clients/dunlop.png")
+            .item
+              .carousel-col
+                img.img-responsive(src="./img/clients/haynesboone.jpg")
+            .item
+              .carousel-col
+                img.img-responsive(src="./img/clients/hoveywilliams.png")
+            .item.active
+              .carousel-col
+                img.img-responsive(src="./img/clients/knobbe-martens.png")
+            .item
+              .carousel-col
+                img.img-responsive(src="./img/clients/ladas.jpg")
+            .item
+              .carousel-col
+                img.img-responsive(src="./img/clients/lewis.png")
+            .item.active
+              .carousel-col
+                img.img-responsive(src="./img/clients/morganlewis.jpg")
+            .item
+              .carousel-col
+                img.img-responsive(src="./img/clients/nortonrosefulbright.png")
+            .item
+              .carousel-col
+                img.img-responsive(src="./img/clients/stanford.png")                
+
+
 section.text-center.white-section
   .container
     h2.title.title-blue-large-thin Why Cognizance IP
