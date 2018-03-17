@@ -1,3 +1,10 @@
+.career-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../public/img/career.jpg') no-repeat left top;
+    background-size: cover;
+    color: #fff;
+    padding-top: 130px;
+    border: none;
+}
 .p-style{
     margin-top: 20px;
     margin-left: 10%;
@@ -29,6 +36,7 @@
 .pic-style{
     border-radius: 50%;
     width: 90px;
+    height: 90px;
 }
 .qus-margin{
     margin-top: 5px;
@@ -49,6 +57,9 @@
     background: #fff;
     margin-left: -10px;
     padding-left: 10px;
+}
+.no-margin{
+    margin: 0 !important;
 }
 @media (max-width: 450px) {
     .mobile-margin{
