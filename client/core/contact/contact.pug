@@ -15,16 +15,22 @@ section#mail-anchor.contact-section.contact-form-align
           .row
             .form-group.col-xs-12.col-sm-6
               label.sr-only(for='cname') Your name
-              input#cname.form-control(type='text', name='name', placeholder='Your name', minlength='2', required)
+              input#cname.form-control.font_s(type='text', name='name', placeholder='Your name', minlength='2', required)
             .form-group.col-xs-12.col-sm-6
               label.sr-only(for='cemail') Email address
-              input#cemail.form-control(type='email', name='_replyto', placeholder='Your email address', required)
+              input#cemail.form-control.font_s(type='email', name='_replyto', placeholder='Your email address', required)
             .form-group.col-xs-12.col-sm-6
               label.sr-only(for='city') City
-              input#city.form-control(type='text', name='city', placeholder='City')
+              input#city.form-control.font_s(type='text', name='city', placeholder='City')
             .form-group.col-xs-12.col-sm-6
               label.sr-only(for='phone') Phone
-              input#phone.form-control(type='text', name='phone', placeholder='Phone')
+              input#phone.form-control.font_s(type='text', name='phone', placeholder='Phone')
+            .form-group.col-xs-12.col-sm-6
+              <p> Want to Set up a Meeting? Select Date and Time </p>
+            .form-group.col-xs-12.col-sm-3
+              input.datepicker.font_s(type='text', name='date', placeholder='Date')
+            .form-group.col-xs-12.col-sm-3
+              input.timepicker.font_s(type='text', name='time', placeholder='Time')
             .form-group.col-xs-12
               label.sr-only(for='cmessage') Your message
               textarea#cmessage.form-control(name='message', placeholder='Enter your message', rows='6', required)

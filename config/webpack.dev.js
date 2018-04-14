@@ -3,6 +3,8 @@ const webpackMerge = require('webpack-merge'),
   path = require('path'),
   webpack     = require('webpack');
 
+const ProvidePlugin = require('webpack/lib/ProvidePlugin');
+
 module.exports = webpackMerge(commonConfig, {
 
   devtool: 'inline-source-map',

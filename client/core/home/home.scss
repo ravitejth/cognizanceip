@@ -376,8 +376,8 @@ html {
   height: 180px;
 }
 .logo-container{
-  margin-left: 3% !important;
-  width: 97%;
+  margin-left: 8% !important;
+  width: 100%;
 }
 @media (max-width: 450px) {
   .img-responsive{
@@ -388,4 +388,8 @@ html {
     margin-left: 1% !important;
     width: 99%;
   }
+}
+.logo-height {
+  height: 170px;
+  overflow: hidden;
 }

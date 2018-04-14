@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { SharedModule } from '../shared/shared.module';
 import { AppComponent }  from './app.component';
 
+import 'materialize-css';
+import { MaterializeModule } from 'angular2-materialize';
+
 // ROUTING
 import { AppRoutingModule } from './app-routing.module';
 
@@ -10,7 +13,8 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    MaterializeModule
   ],
   declarations: [
     AppComponent
