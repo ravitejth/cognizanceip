@@ -13,27 +13,32 @@ section#mail-anchor.contact-section.contact-form-align
       .row.text-center
         .contact-form-inner.col-md-offset-2.col-sm-offset-0.xs-offset-0.col-xs-12.col-md-8
           .row
-            .form-group.col-xs-12.col-sm-6
+            .form-group.zero-mar.col-xs-12.col-sm-6
               label.sr-only(for='cname') Your name
-              input#cname.form-control.font_s(type='text', name='name', placeholder='Your name', minlength='2', required)
-            .form-group.col-xs-12.col-sm-6
+              input#cname.form-control.input-style.font_s(type='text', name='name', placeholder='Your name', minlength='2', required)
+            .form-group.zero-mar.col-xs-12.col-sm-6
               label.sr-only(for='cemail') Email address
-              input#cemail.form-control.font_s(type='email', name='_replyto', placeholder='Your email address', required)
-            .form-group.col-xs-12.col-sm-6
+              input#cemail.form-control.input-style.font_s(type='email', name='_replyto', placeholder='Your email address', required)
+            .form-group.zero-mar.col-xs-12.col-sm-6
               label.sr-only(for='city') City
-              input#city.form-control.font_s(type='text', name='city', placeholder='City')
-            .form-group.col-xs-12.col-sm-6
+              input#city.form-control.input-style.font_s(type='text', name='city', placeholder='City')
+            .form-group.zero-mar.col-xs-12.col-sm-6
               label.sr-only(for='phone') Phone
-              input#phone.form-control.font_s(type='text', name='phone', placeholder='Phone')
-            .form-group.col-xs-12.col-sm-6
-              <p> Want to Set up a Meeting? Select Date and Time </p>
+              input#phone.form-control.input-style.font_s(type='text', name='phone', placeholder='Phone')
+            .form-group.col-xs-12
+              label.sr-only(for='cmessage') Your message
+              textarea#cmessage.form-control(name='message', placeholder='Enter your message', rows='6', required)
+            .form-group.col-xs-12.col-sm-3
+              <p> Want to Set up a Meeting? </p>
             .form-group.col-xs-12.col-sm-3
               input.datepicker.font_s(type='text', name='date', placeholder='Date')
             .form-group.col-xs-12.col-sm-3
               input.timepicker.font_s(type='text', name='time', placeholder='Time')
-            .form-group.col-xs-12
-              label.sr-only(for='cmessage') Your message
-              textarea#cmessage.form-control(name='message', placeholder='Enter your message', rows='6', required)
+            .form-group.col-xs-12.col-sm-3.zone-margin
+              select.form-control.select-style(name='zone')
+                option GMT+5:30 Mumbai
+                option(*ngFor= 'let obj of zones', [value]='obj') {{obj}}
+
             .form-group.col-xs-12
               button.btn.btn-block.btn-cta.btn-cta-primary(type='submit') Send Message
       #form-messages
