@@ -35,19 +35,22 @@ agm-map {
 .font_s {
   font-size: 14px !important;  
 }
-.select-style {
-  border: none;
-  border-radius: 0;
-  border-bottom: 1px solid;
-}
-.zone-margin {
-  margin-top: -10px;
-}
 .zero-mar {
   margin: 0;
 }
 .input-style {
   border: 1px solid #efefef !important;
   border-radius: 4px !important;
-  padding: 4px 0px !important;
+  padding: 4px 0px 4px 10px !important;
+}
+.styler {
+  padding-top: 3%;
+  padding-left: 30%;
+  color: #555555;
+}
+.font-color {
+  color: #555555 !important;
+}
+.padd-top {
+  padding-top: 20px;
 }

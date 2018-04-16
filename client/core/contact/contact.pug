@@ -1,7 +1,7 @@
 .contact-headline-bg
 section.text-center.white-section.trim-sec-1-bottom
   .container
-    .title.title-blue-large-thin CONTACT US
+    .title.title-blue-large-thin.padd-top CONTACT US
     h2.text-center.font-grey We Do The Rest
     hr.contact-hr    
 section#mail-anchor.contact-section.contact-form-align
@@ -29,16 +29,15 @@ section#mail-anchor.contact-section.contact-form-align
               label.sr-only(for='cmessage') Your message
               textarea#cmessage.form-control(name='message', placeholder='Enter your message', rows='6', required)
             .form-group.col-xs-12.col-sm-3
-              <p> Want to Set up a Meeting? </p>
+              p.styler Set up a Meeting: 
             .form-group.col-xs-12.col-sm-3
-              input.datepicker.font_s(type='text', name='date', placeholder='Date')
+              input.datepicker.input-style.font_s(type='text', name='date', placeholder='Date')
             .form-group.col-xs-12.col-sm-3
-              input.timepicker.font_s(type='text', name='time', placeholder='Time')
-            .form-group.col-xs-12.col-sm-3.zone-margin
-              select.form-control.select-style(name='zone')
-                option GMT+5:30 Mumbai
+              input.timepicker.input-style.font_s(type='text', name='time', placeholder='Time')
+            .form-group.col-xs-12.col-sm-3
+              select.form-control.font-color(name='zone')
+                option Select Time Zone
                 option(*ngFor= 'let obj of zones', [value]='obj') {{obj}}
-
             .form-group.col-xs-12
               button.btn.btn-block.btn-cta.btn-cta-primary(type='submit') Send Message
       #form-messages
